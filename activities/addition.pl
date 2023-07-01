@@ -1,0 +1,1 @@
+add(Value1, Value2, Answer) :- (integer(Value1), integer(Value2)) -> Answer is Value1 + Value2; string_concat(Value1, Value2, Answer).

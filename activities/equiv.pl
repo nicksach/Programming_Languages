@@ -1,0 +1,1 @@
+equiv(Type1, Type2) :- \+ (Type1 == Type2), atom_string(Type1, S1), atom_string(Type2, S2), S1 = S2.
